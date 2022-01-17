@@ -1,0 +1,74 @@
+@font-face {
+  font-family: pictoFont;
+  src: url(Nintendo-DS-BIOS.ttf);
+}
+
+html {
+  font-family: pictoFont;
+}
+
+@media screen and (min-width: 800px) {
+  div {
+    font-family: pictoFont;
+    transform: scale(2.1);
+    padding-top: 200px;
+    padding-bottom: 150px;
+    padding-left: 180px;
+  }
+}
+
+/* iPad */
+
+@media all and (min-width:801px) and (max-width: 959px) {
+  div {
+    font-family: pictoFont;
+    transform: scale(2.1);
+    padding-top: 120px;
+  }
+}
+
+/* Kindle Fire */
+
+@media all and (min-width:769px) and (max-width: 800px) {
+  div {
+    font-family: pictoFont;
+    transform: scale(2.1);
+    padding-top: 200px;
+  }
+}
+
+/* iPad Mini */
+
+@media all and (min-width:569px) and (max-width: 768px) {
+  div {
+    font-family: pictoFont;
+    transform: scale(2.1);
+    font-family: pictoFont;
+    transform: scale(2.1);
+    padding-top: 130px;
+    padding-bottom: 150px;
+    padding-left: 180px;
+  }
+}
+
+
+/* most iPhones/Galaxies */
+
+@media all and (min-width:321px) and (max-width: 480px) {
+  div {
+    font-family: pictoFont;
+    transform: scale(3.5);
+    padding-top: 60px;
+    padding-left: 80px;
+  }
+}
+
+/* iPhone 5 */
+
+@media all and (min-width:0px) and (max-width: 320px) {
+  div {
+    font-family: pictoFont;
+    transform: scale(2.1);
+    padding-top: 200px;
+  }
+}
