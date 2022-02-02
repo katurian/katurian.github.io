@@ -7,6 +7,10 @@ html {
   font-family: pictoFont;
 }
 
+.links:hover {
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 800px) {
   div {
     font-family: pictoFont;
