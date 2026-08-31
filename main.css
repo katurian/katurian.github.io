@@ -3,8 +3,8 @@
   src: url(Nintendo-DS-BIOS.ttf);
 }
 
-nes-icon:before {
-  left:0px !important
+.nes-icon::before {
+  left: 0 !important;
 }
 
 html {
