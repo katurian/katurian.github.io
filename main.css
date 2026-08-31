@@ -3,6 +3,10 @@
   src: url(Nintendo-DS-BIOS.ttf);
 }
 
+nes-icon:before {
+  left:0px !important
+}
+
 html {
   font-family: pictoFont;
 }
